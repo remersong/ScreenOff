@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		106B04772CF2EAF700CBFCB2 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 106B04762CF2EAF700CBFCB2 /* FirebaseAnalytics */; };
+		106B04792CF2EAF700CBFCB2 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 106B04782CF2EAF700CBFCB2 /* FirebaseAnalyticsOnDeviceConversion */; };
+		106B047B2CF2EAF700CBFCB2 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 106B047A2CF2EAF700CBFCB2 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		106B047D2CF2EAF700CBFCB2 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 106B047C2CF2EAF700CBFCB2 /* FirebaseAppCheck */; };
+		106B047F2CF2EAF700CBFCB2 /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 106B047E2CF2EAF700CBFCB2 /* FirebaseAppDistribution-Beta */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		106B03D72CF1658C00CBFCB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 106B03BE2CF1658800CBFCB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 106B03C52CF1658900CBFCB2;
+			remoteInfo = ScreenOff;
+		};
+		106B03E12CF1658C00CBFCB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 106B03BE2CF1658800CBFCB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 106B03C52CF1658900CBFCB2;
+			remoteInfo = ScreenOff;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		106B03C62CF1658900CBFCB2 /* ScreenOff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenOff.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		106B03D62CF1658C00CBFCB2 /* ScreenOffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenOffTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		106B03E02CF1658C00CBFCB2 /* ScreenOffUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenOffUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		106B04722CF26FD100CBFCB2 /* Exceptions for "ScreenOff" folder in "ScreenOff" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 106B03C52CF1658900CBFCB2 /* ScreenOff */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		106B03C82CF1658900CBFCB2 /* ScreenOff */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				106B04722CF26FD100CBFCB2 /* Exceptions for "ScreenOff" folder in "ScreenOff" target */,
+			);
+			path = ScreenOff;
+			sourceTree = "<group>";
+		};
+		106B03D92CF1658C00CBFCB2 /* ScreenOffTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ScreenOffTests;
+			sourceTree = "<group>";
+		};
+		106B03E32CF1658C00CBFCB2 /* ScreenOffUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ScreenOffUITests;
+			sourceTree = "<group>";
+		};
+		106B045E2CF26FB100CBFCB2 /* Fonts */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		106B03C32CF1658900CBFCB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				106B047D2CF2EAF700CBFCB2 /* FirebaseAppCheck in Frameworks */,
+				106B04772CF2EAF700CBFCB2 /* FirebaseAnalytics in Frameworks */,
+				106B047F2CF2EAF700CBFCB2 /* FirebaseAppDistribution-Beta in Frameworks */,
+				106B047B2CF2EAF700CBFCB2 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				106B04792CF2EAF700CBFCB2 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		106B03D32CF1658C00CBFCB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		106B03DD2CF1658C00CBFCB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		106B03BD2CF1658800CBFCB2 = {
+			isa = PBXGroup;
+			children = (
+				106B045E2CF26FB100CBFCB2 /* Fonts */,
+				106B03C82CF1658900CBFCB2 /* ScreenOff */,
+				106B03D92CF1658C00CBFCB2 /* ScreenOffTests */,
+				106B03E32CF1658C00CBFCB2 /* ScreenOffUITests */,
+				106B03C72CF1658900CBFCB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		106B03C72CF1658900CBFCB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				106B03C62CF1658900CBFCB2 /* ScreenOff.app */,
+				106B03D62CF1658C00CBFCB2 /* ScreenOffTests.xctest */,
+				106B03E02CF1658C00CBFCB2 /* ScreenOffUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		106B03C52CF1658900CBFCB2 /* ScreenOff */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 106B03EA2CF1658C00CBFCB2 /* Build configuration list for PBXNativeTarget "ScreenOff" */;
+			buildPhases = (
+				106B03C22CF1658900CBFCB2 /* Sources */,
+				106B03C32CF1658900CBFCB2 /* Frameworks */,
+				106B03C42CF1658900CBFCB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				106B03C82CF1658900CBFCB2 /* ScreenOff */,
+				106B045E2CF26FB100CBFCB2 /* Fonts */,
+			);
+			name = ScreenOff;
+			packageProductDependencies = (
+				106B04762CF2EAF700CBFCB2 /* FirebaseAnalytics */,
+				106B04782CF2EAF700CBFCB2 /* FirebaseAnalyticsOnDeviceConversion */,
+				106B047A2CF2EAF700CBFCB2 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				106B047C2CF2EAF700CBFCB2 /* FirebaseAppCheck */,
+				106B047E2CF2EAF700CBFCB2 /* FirebaseAppDistribution-Beta */,
+			);
+			productName = ScreenOff;
+			productReference = 106B03C62CF1658900CBFCB2 /* ScreenOff.app */;
+			productType = "com.apple.product-type.application";
+		};
+		106B03D52CF1658C00CBFCB2 /* ScreenOffTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 106B03ED2CF1658C00CBFCB2 /* Build configuration list for PBXNativeTarget "ScreenOffTests" */;
+			buildPhases = (
+				106B03D22CF1658C00CBFCB2 /* Sources */,
+				106B03D32CF1658C00CBFCB2 /* Frameworks */,
+				106B03D42CF1658C00CBFCB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				106B03D82CF1658C00CBFCB2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				106B03D92CF1658C00CBFCB2 /* ScreenOffTests */,
+			);
+			name = ScreenOffTests;
+			packageProductDependencies = (
+			);
+			productName = ScreenOffTests;
+			productReference = 106B03D62CF1658C00CBFCB2 /* ScreenOffTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		106B03DF2CF1658C00CBFCB2 /* ScreenOffUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 106B03F02CF1658C00CBFCB2 /* Build configuration list for PBXNativeTarget "ScreenOffUITests" */;
+			buildPhases = (
+				106B03DC2CF1658C00CBFCB2 /* Sources */,
+				106B03DD2CF1658C00CBFCB2 /* Frameworks */,
+				106B03DE2CF1658C00CBFCB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				106B03E22CF1658C00CBFCB2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				106B03E32CF1658C00CBFCB2 /* ScreenOffUITests */,
+			);
+			name = ScreenOffUITests;
+			packageProductDependencies = (
+			);
+			productName = ScreenOffUITests;
+			productReference = 106B03E02CF1658C00CBFCB2 /* ScreenOffUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		106B03BE2CF1658800CBFCB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					106B03C52CF1658900CBFCB2 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					106B03D52CF1658C00CBFCB2 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 106B03C52CF1658900CBFCB2;
+					};
+					106B03DF2CF1658C00CBFCB2 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 106B03C52CF1658900CBFCB2;
+					};
+				};
+			};
+			buildConfigurationList = 106B03C12CF1658800CBFCB2 /* Build configuration list for PBXProject "ScreenOff" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 106B03BD2CF1658800CBFCB2;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				106B04752CF2EAF700CBFCB2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 106B03C72CF1658900CBFCB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				106B03C52CF1658900CBFCB2 /* ScreenOff */,
+				106B03D52CF1658C00CBFCB2 /* ScreenOffTests */,
+				106B03DF2CF1658C00CBFCB2 /* ScreenOffUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		106B03C42CF1658900CBFCB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		106B03D42CF1658C00CBFCB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		106B03DE2CF1658C00CBFCB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		106B03C22CF1658900CBFCB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		106B03D22CF1658C00CBFCB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		106B03DC2CF1658C00CBFCB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		106B03D82CF1658C00CBFCB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 106B03C52CF1658900CBFCB2 /* ScreenOff */;
+			targetProxy = 106B03D72CF1658C00CBFCB2 /* PBXContainerItemProxy */;
+		};
+		106B03E22CF1658C00CBFCB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 106B03C52CF1658900CBFCB2 /* ScreenOff */;
+			targetProxy = 106B03E12CF1658C00CBFCB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		106B03E82CF1658C00CBFCB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		106B03E92CF1658C00CBFCB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		106B03EB2CF1658C00CBFCB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScreenOff/Preview Content\"";
+				DEVELOPMENT_TEAM = 2RWM2RTC3D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScreenOff/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VSDInc.ScreenOff;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		106B03EC2CF1658C00CBFCB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScreenOff/Preview Content\"";
+				DEVELOPMENT_TEAM = 2RWM2RTC3D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScreenOff/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VSDInc.ScreenOff;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		106B03EE2CF1658C00CBFCB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RWM2RTC3D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VSDInc.ScreenOffTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScreenOff.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScreenOff";
+			};
+			name = Debug;
+		};
+		106B03EF2CF1658C00CBFCB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RWM2RTC3D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VSDInc.ScreenOffTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScreenOff.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScreenOff";
+			};
+			name = Release;
+		};
+		106B03F12CF1658C00CBFCB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RWM2RTC3D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VSDInc.ScreenOffUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScreenOff;
+			};
+			name = Debug;
+		};
+		106B03F22CF1658C00CBFCB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RWM2RTC3D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VSDInc.ScreenOffUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScreenOff;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		106B03C12CF1658800CBFCB2 /* Build configuration list for PBXProject "ScreenOff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				106B03E82CF1658C00CBFCB2 /* Debug */,
+				106B03E92CF1658C00CBFCB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		106B03EA2CF1658C00CBFCB2 /* Build configuration list for PBXNativeTarget "ScreenOff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				106B03EB2CF1658C00CBFCB2 /* Debug */,
+				106B03EC2CF1658C00CBFCB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		106B03ED2CF1658C00CBFCB2 /* Build configuration list for PBXNativeTarget "ScreenOffTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				106B03EE2CF1658C00CBFCB2 /* Debug */,
+				106B03EF2CF1658C00CBFCB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		106B03F02CF1658C00CBFCB2 /* Build configuration list for PBXNativeTarget "ScreenOffUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				106B03F12CF1658C00CBFCB2 /* Debug */,
+				106B03F22CF1658C00CBFCB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		106B04752CF2EAF700CBFCB2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		106B04762CF2EAF700CBFCB2 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 106B04752CF2EAF700CBFCB2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		106B04782CF2EAF700CBFCB2 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 106B04752CF2EAF700CBFCB2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		106B047A2CF2EAF700CBFCB2 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 106B04752CF2EAF700CBFCB2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		106B047C2CF2EAF700CBFCB2 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 106B04752CF2EAF700CBFCB2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		106B047E2CF2EAF700CBFCB2 /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 106B04752CF2EAF700CBFCB2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 106B03BE2CF1658800CBFCB2 /* Project object */;
+}
